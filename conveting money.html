@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converting money</title>
+<style>
+html{
+  background-color: blue;    
+}
+body{
+    background-color: aquamarine;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+}
+
+</style>
+
+
+
+</head>
+<body>
+    <header>    
+        <h2 >XYZ-COMPANY</h2>
+    </header>
+    <input type="number" value="amount" placeholder="Enter amount">
+     <label>From</label>
+      <select>
+        <option value="0.007">RWANDA-Frw</option>
+        <option value="1.4">USD-$</option>
+        <option value="1.2">EUR</option>
+        <option value="0.005">SHILLING</option>
+        </select>
+    
+    <label>To</label>
+       <select>
+        <option>USD-$</option>
+        <option>RWANDA-Frw</option>
+        <option>EUR</option>
+        <option>SHILLING</option>
+        </select><br><br>
+        
+    <button onclick="convert()">Convert</button>
+        <p id="result">
+
+</body>
+</html>
